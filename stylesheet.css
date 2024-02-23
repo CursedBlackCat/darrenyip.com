@@ -86,6 +86,10 @@ hr {
     bottom: 0;
 }
 
+.flex-item {
+    flex-basis: 100%;
+}
+
 footer p {
     text-align: center;
 }

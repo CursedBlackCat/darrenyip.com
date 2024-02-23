@@ -10,7 +10,7 @@
 </head>
 <body onload="setEmailLink()">
 <script type="text/javascript">
-    function setEmailLink(){
+    function setEmailLink() {
         document.getElementById("email-link").setAttribute("href", "mailto:".concat(atob("bWVAZGFycmVueWlwLmNvbQ==")))
     }
 </script>
@@ -18,7 +18,8 @@
     <header>
         <img src="https://placehold.co/200" alt="Placeholder profile image"/>
         <h1 class="oxygen-bold">Darren Yip</h1>
-        <h3 class="oxygen-light"><a href="https://github.com/CursedBlackCat">GitHub</a> | <a href="#" id="email-link">Email</a></h3>
+        <h3 class="oxygen-light"><a href="https://github.com/CursedBlackCat">GitHub</a> | <a href="#" id="email-link">Email</a>
+        </h3>
     </header>
     <hr/>
     <h2 class="oxygen-bold">About Me</h2>
@@ -29,7 +30,7 @@
     <hr/>
     <h2 class="oxygen-bold">Project Showcase</h2>
     <p class="oxygen-regular">These are the projects that best showcase my skills, and that I am most proud of!</p>
-    <div class="flex">
+    <div class="flex showcase">
         <div class="showcase-card">
             <h3 class="oxygen-bold">Pokenesos Server Emulator</h3>
             <p class="oxygen-light showcase-subtitle italics">Relevant skills: Node.js, Python, JSON, HTTP APIs,
@@ -39,19 +40,25 @@
                 beyond its end-of-life, for archival and nostalgia purposes. We also wrote an auxiliary script to pull
                 existing user account data from the official server before it shut down, and migrate it over to our
                 server emulator.</p>
-            <p class="oxygen-light"><a href="https://pokenesos.com/">Website</a>, <a
-                    href="https://github.com/CursedBlackCat/PuchiPrivateServer">Server GitHub</a>, <a
-                    href="https://github.com/CursedBlackCat/PPS-Migration">Account Migration Script GitHub</a></p>
+            <div class="showcase-card-links">
+                <p class="oxygen-light"><a href="https://pokenesos.com/">Website</a>, <a
+                        href="https://github.com/CursedBlackCat/PuchiPrivateServer">Server GitHub</a>, <a
+                        href="https://github.com/CursedBlackCat/PPS-Migration">Account Migration Script GitHub</a></p>
+            </div>
         </div>
         <div class="showcase-card">
             <h3 class="oxygen-bold">Game Practice Simulator</h3>
             <p class="oxygen-light showcase-subtitle italics">Relevant skills: HTML, CSS, JavaScript, HTML Canvas</p>
-            <p class="oxygen-regular">I built a simulator to help myself and others repeatedly practice a particularly challenging
-                section of a game, without having to  take the time to first play through everything in-game that leads up to that
+            <p class="oxygen-regular">I built a simulator to help myself and others repeatedly practice a particularly
+                challenging
+                section of a game, without having to take the time to first play through everything in-game that leads
+                up to that
                 point. Developing the simulator involved precise timing, as well as geometric calculations by both X-Y
                 coordinates and angular rotations.</p>
-            <p class="oxygen-light"><a href="https://sim.purr.moe/">Simulator</a>, <a
-                    href="https://github.com/purrxiv/PurrSims">GitHub</a></p>
+            <div class="showcase-card-links">
+                <p class="oxygen-light"><a href="https://sim.purr.moe/">Simulator</a>, <a
+                        href="https://github.com/purrxiv/PurrSims">GitHub</a></p>
+            </div>
         </div>
     </div>
     <hr/>

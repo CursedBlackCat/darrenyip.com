@@ -60,6 +60,10 @@ hr {
     display: flex;
 }
 
+.showcase {
+    position: relative;
+}
+
 .showcase-card{
     background-color: #b4b0cc;
     border-radius: 25px;
@@ -67,6 +71,7 @@ hr {
     align-items: stretch;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 25px;
     display: inline-block;
     float: left;
     margin: 3px;
@@ -74,6 +79,11 @@ hr {
 
 .showcase-subtitle {
     font-size: 14px;
+}
+
+.showcase-card-links {
+    position: absolute;
+    bottom: 0;
 }
 
 footer p {

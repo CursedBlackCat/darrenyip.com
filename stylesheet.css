@@ -1,0 +1,83 @@
+body {
+    background-color: #e7e5ea;
+}
+
+h1, h2, h3, h4, p {
+    color: #000;
+}
+
+.content {
+    width: 850px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    height: 200px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+header h1 {
+    font-size: 52px;
+    position: relative;
+    float: right;
+    margin-right: 175px;
+    margin-top: 75px;
+    display: inline;
+}
+
+header img {
+    border-radius: 50%;
+    float: left;
+    margin-left: 175px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(192, 192, 192, 1), rgba(0, 0, 0, 0));
+}
+
+.italics {
+    font-style: italic;
+}
+
+.showcase{
+    display: flex;
+}
+
+.showcase-card{
+    background-color: #b4b0cc;
+    border-radius: 25px;
+    flex-basis: 100%;
+    align-items: stretch;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    float: left;
+    margin: 3px;
+}
+
+.showcase-subtitle {
+    font-size: 14px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.oxygen-light {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+}
+
+.oxygen-regular {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+}
+
+.oxygen-bold {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+}

@@ -24,11 +24,11 @@ header {
 }
 
 header h1 {
-    font-size: 52px;
+    font-size: 66px;
     position: relative;
     float: right;
-    margin-right: 175px;
-    margin-top: 75px;
+    margin-right: 145px;
+    margin-top: 60px;
     display: inline;
 }
 
@@ -41,7 +41,7 @@ header img {
 header h3 {
     position: relative;
     float: right;
-    margin-right: 220px;
+    margin-right: 205px;
     margin-bottom: 0;
     margin-top: -25px;
 }
@@ -107,4 +107,10 @@ footer p {
 .oxygen-bold {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
+}
+
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

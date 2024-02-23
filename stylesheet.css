@@ -6,6 +6,11 @@ h1, h2, h3, h4, p {
     color: #000;
 }
 
+.experience-subtitle {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
 .content {
     width: 850px;
     margin: auto;
@@ -43,7 +48,7 @@ hr {
     font-style: italic;
 }
 
-.showcase{
+.flex{
     display: flex;
 }
 

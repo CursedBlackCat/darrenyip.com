@@ -8,11 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="setEmailLink()">
+<script type="text/javascript">
+    function setEmailLink(){
+        document.getElementById("email-link").setAttribute("href", "mailto:".concat(atob("bWVAZGFycmVueWlwLmNvbQ==")))
+    }
+</script>
 <div class="content">
     <header>
         <img src="https://placehold.co/200" alt="Placeholder profile image"/>
         <h1 class="oxygen-bold">Darren Yip</h1>
+        <h4 class="oxygen-light"><a href="https://github.com/CursedBlackCat">GitHub</a> | <a href="#" id="email-link">Email</a></h4>
     </header>
     <hr/>
     <h2 class="oxygen-bold">About Me</h2>

@@ -38,6 +38,14 @@ header img {
     margin-left: 175px;
 }
 
+header h4 {
+    position: relative;
+    float: right;
+    margin-right: 250px;
+    margin-bottom: 0;
+    margin-top: -25px;
+}
+
 hr {
     border: 0;
     height: 2px;

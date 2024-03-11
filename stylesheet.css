@@ -22,16 +22,18 @@ header {
     height: 200px;
     padding-top: 15px;
     padding-bottom: 25px;
+    width: 850px;
 }
 
 header h1 {
-    font-size: 66px;
-    position: relative;
-    float: right;
-    margin-right: 145px;
-    margin-top: 60px;
-    display: inline;
-}
+     font-size: 66px;
+     /*position: relative;
+     float: right;
+     margin-right: 145px;
+     margin-top: 60px;
+     display: inline-block;*/
+     text-align: center;
+ }
 
 header img {
     border-radius: 50%;
@@ -40,11 +42,7 @@ header img {
 }
 
 header h3 {
-    position: relative;
-    float: right;
-    margin-right: 205px;
-    margin-bottom: 0;
-    margin-top: -25px;
+    text-align: center;
 }
 
 hr {
